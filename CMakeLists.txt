@@ -8,10 +8,7 @@ add_executable(quick_sort main.cc)
 
 target_compile_options(quick_sort PRIVATE -Wall -Wextra -pedantic -Werror)
 
-find_package(GTest REQUIRED)
-include_directories(${GTEST_INCLUDE_DIRS})
-
-add_executable(tests tests.cc)
+add_executable(tests main.cc)
 target_link_libraries(tests ${GTEST_BOTH_LIBRARIES} pthread)
 target_compile_options(tests PRIVATE -Wall -Wextra -pedantic -Werror)
 

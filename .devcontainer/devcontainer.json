@@ -21,7 +21,8 @@
 				"Gruntfuggly.todo-tree",
 				"zxh404.vscode-proto3",
 				"twxs.cmake",
-				"ms-vscode.cmake-tools"
+				"ms-vscode.cmake-tools",
+				"eamodio.gitlens"
 			]
 		}
 	}
