@@ -8,13 +8,15 @@
             "name": "(gdb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/build/quick_sort",
+            //"program": "${workspaceRoot}/build/quick_sort",
+            "program": "${file}.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
+            "preLaunchTask": "build",
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",

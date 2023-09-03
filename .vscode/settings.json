@@ -61,6 +61,8 @@
     ],
     //"clangd.path": "/tmp/clangd_15.0.3/bin/clangd",
     "[cpp]": {
-        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
     }
 }
