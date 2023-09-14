@@ -6,7 +6,6 @@
                 "${workspaceFolder}/**"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/g++",
             "intelliSenseMode": "${default}",
             "compileCommands": "${workspaceFolder}/build/compile_commands.json"
         }
